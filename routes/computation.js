@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-const express = require('express');
 const app = express();
 const port = 3000; 
 
