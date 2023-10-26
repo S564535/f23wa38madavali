@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
+const port = 3000;
 
 
-
-app.get('/computation', (req, res) => {
+router.get('/computation', (req, res) => {
   const queryX = parseFloat(req.query.x); 
   const lastDigit = req.user.id % 10;
   const randomValue = queryX || Math.random(); 
