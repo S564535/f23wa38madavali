@@ -14,7 +14,7 @@ router.get('/computation', (req, res) => {
   });
 });
 
-app.listen(port, () => {
+router.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
